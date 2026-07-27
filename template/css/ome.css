@@ -46,26 +46,37 @@ table.centre {
 
 .fair-container {
     position: relative;
-    width: 90%;
-    margin: 0 auto 1.5em auto;
+    width: 68%; 
+    margin: 0 auto 20px auto;
 }
 
 .fair-image {
-    width: 100%;
     display: block;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .reveal .fair-credit {
-    margin-top: 2px;
+    position: absolute;
+    bottom: 8px;
+
+    left: 12%;
+    right: 12%;
+
     text-align: right;
-    font-size: 22%;
+    font-size: 28%;
     font-style: italic;
-    color: #666;
+    color: #555;
 }
 
-.fair-credit a {
-    color: inherit;
-    text-decoration: underline;
+.reveal .fair-links {
+    display: inline-block;
+    text-align: left;
+    margin-top: 0.7em;
+}
+
+.reveal .fair-links li {
+    font-size: 0.9em;
 }
 
 .reveal .centre td {
