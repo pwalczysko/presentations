@@ -44,6 +44,30 @@ table.centre {
     width: 100%;
 }
 
+.fair-container {
+    position: relative;
+    width: 90%;
+    margin: 0 auto 1.5em auto;
+}
+
+.fair-image {
+    width: 100%;
+    display: block;
+}
+
+.reveal .fair-credit {
+    margin-top: 2px;
+    text-align: right;
+    font-size: 22%;
+    font-style: italic;
+    color: #666;
+}
+
+.fair-credit a {
+    color: inherit;
+    text-decoration: underline;
+}
+
 .reveal .centre td {
     text-align: center;
 }
